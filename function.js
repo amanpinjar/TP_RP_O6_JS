@@ -1,4 +1,8 @@
+greet("name")
+console.log(name);
+
 function greet(name){
     console.log("Hello"+ name);
 }
-console.log("in function");
+
+var name = "Hello test"
