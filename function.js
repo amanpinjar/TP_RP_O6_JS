@@ -26,8 +26,7 @@ fahrenheitToCelsius(45);
 celsiusToFahrenheit(34); 
   
 
-  
-  
+ 
   function add(a, b) {
     return a + b;
   }
