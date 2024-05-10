@@ -1,0 +1,14 @@
+varables
+function
+datatype - string
+            boolean
+           
+
+operators 
+
+array
+object
+array of object
+
+DOM mainpulation
+Event handling
