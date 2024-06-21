@@ -111,10 +111,11 @@ nav > div > ul > li:hover {
 /* main-page start */
 
 .main-body{
-    
+    background-color: #3DC2EC;
     display: flex;
     padding: 40px;
     gap: 30px;
+    border-end-end-radius: 10px;
 }
 
 .body-img > img{
@@ -139,6 +140,7 @@ nav > div > ul > li:hover {
     background: linear-gradient(-70deg, #021f7e 30%, rgba(0, 0, 0, 0) 30%), url('planets.jpg');
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3DC2EC;
 }
 
 .form-box > .form-title > h1 {
