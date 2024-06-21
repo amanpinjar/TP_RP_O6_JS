@@ -133,11 +133,45 @@ nav > div > ul > li:hover {
 }
 
 .main-text , h1{
-    
+    margin-left: 10px;
     font-family: "Source Code Pro", monospace;
+}
+.main-text , p {
+    padding: 40px;
 }
 
 /* main-page End */
+
+/* About-us start */
+.about-main{
+background-image: url('https://t3.ftcdn.net/jpg/04/96/45/18/240_F_496451818_zGrYTHah114WURQbT3O2cGEcqBWjeazT.jpg');
+ background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%; 
+  
+}
+.about-title ,h1{
+    margin-top: 90px;
+    text-align: center;
+}
+.About-img , img{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    border-radius: 20px;
+   
+}
+.about-des ,p {
+    text-size-adjust: 900px;
+    margin-top: 0px;
+   /* padding: 0px, 80px, 10px,800px; */
+}
+/* About-us end */
+
+
+
+
+/* main-page-form start */
 
 .form-box {
     color: rgb(0, 0, 0);
