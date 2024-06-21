@@ -82,10 +82,13 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
-    background-color: rgb(51, 53, 160);
+     background-color:#00308F ; 
     color:white;
     font-family: "Roboto", sans-serif;
-    
+    position:fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /* combinators */
@@ -125,6 +128,10 @@ nav > div > ul > li:hover {
     box-shadow: 0 4px 8px 0 rgba(44, 13, 196, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.main-body , .main-text , .body-img {
+    margin-top: 60px;
+}
+
 .main-text , h1{
     
     font-family: "Source Code Pro", monospace;
@@ -141,6 +148,9 @@ nav > div > ul > li:hover {
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #3DC2EC;
+    position: absolute;
+    z-index: 2;
+    width: 95%;
 }
 
 .form-box > .form-title > h1 {
