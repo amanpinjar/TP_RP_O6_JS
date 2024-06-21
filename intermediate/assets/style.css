@@ -67,9 +67,16 @@ form label {
     background-color: #45a049;
 }
 
+
+
+
+
+
+
+
 /* navabr start */
 #logo > img{
-    height: 90px;
+    height: 70px;
 }
 nav{
     display: flex;
@@ -100,24 +107,29 @@ nav > div > ul > li:hover {
 
 /* navabr end */
 
+
 /* main-page start */
 
 .main-body{
+    
     display: flex;
-   
+    padding: 40px;
+    gap: 30px;
 }
 
 .body-img > img{
-    margin: 40px;
-    height: 600px;
+    /* margin: 40px; */
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(44, 13, 196, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .main-text , h1{
+    
     font-family: "Source Code Pro", monospace;
 }
+
+/* main-page End */
 
 .form-box {
     color: rgb(0, 0, 0);
@@ -172,4 +184,3 @@ button:hover {
 
 
 /* main-page-form End */
-/* main-page End */
