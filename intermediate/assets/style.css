@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 body {
     font-family: Arial, sans-serif;
     /* background-color: #c27474; */
@@ -132,11 +132,13 @@ nav > div > ul > li:hover {
     margin-top: 60px;
 }
 
-.main-text , h1{
+.main-text , h1 , span{
     margin-left: 10px;
-    font-family: "Source Code Pro", monospace;
+    font-family: "Playwrite DE Grund", cursive;
+
 }
 .main-text , p {
+    font-family: "Playwrite DE Grund", cursive;
     padding: 40px;
 }
 
@@ -151,6 +153,7 @@ background-image: url('https://t3.ftcdn.net/jpg/04/96/45/18/240_F_496451818_zGrY
   
 }
 .about-title ,h1{
+    font-family: "Playwrite DE Grund", cursive;
     margin-top: 90px;
     text-align: center;
 }
@@ -162,14 +165,24 @@ background-image: url('https://t3.ftcdn.net/jpg/04/96/45/18/240_F_496451818_zGrY
    
 }
 .about-des ,p {
+    font-family: "Playwrite DE Grund", cursive;
     text-size-adjust: 900px;
     margin-top: 0px;
+    background-color: rgb(93, 173, 223);
+    border-radius: 20PX;
+    margin: 50PX;
    /* padding: 0px, 80px, 10px,800px; */
 }
 /* About-us end */
 
+/* Gallery-start */
 
+/* .gallery-body , img{
+    display: flex;
+    width: 90%;
+} */
 
+/* Gallery-End */
 
 /* main-page-form start */
 
@@ -182,9 +195,9 @@ background-image: url('https://t3.ftcdn.net/jpg/04/96/45/18/240_F_496451818_zGrY
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #3DC2EC;
-    position: absolute;
+    /* position: absolute;
     z-index: 2;
-    width: 95%;
+    width: 95%; */
 }
 
 .form-box > .form-title > h1 {
